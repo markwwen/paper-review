@@ -10,8 +10,8 @@
     - NTU
     - Wenya Wang, Sinno Jialin Pan, Daniel Dahlmeier
     - axiv, 2017
-    - [Paper]()
-    - [Review]()
+    - [Paper](https://arxiv.org/pdf/1702.01776.pdf)
+    - [Review](./reviews/Multi-task-Memory-Networks-for-Category-speciﬁc-Aspect-and-Opinion-Terms-Co-extraction.md)
 - Deep Multi-Task Learning for Aspect Term Extraction with Memory Interaction∗
     - CUHK
     - XinLi, WaiLam
