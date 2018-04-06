@@ -23,6 +23,30 @@
 
 ## Evaluation
 
+DataSet:
+- D1 (SemEval 2014) contains reviews from the laptop domain.
+- D2 (SemEval 2016) contains reviews from the restaurant domain.
+
+
+| DataSet | Train/Test Setences Num | Train/Test Aspects Num |
+| ------- | ----------------------- | ---------------------- |
+| D1      | 3045/800                | 2358/654               |
+| D2      | 2000/676                | 1743/622               |
+
+| ModelName | D1     | D2     |
+| --------- | ------ | ------ |
+| CRF       | 74.01% | 69.56% |
+| Semi-CRF  | 68.75% | 66.35% |
+| IHS RD    | 74.55% | -      |
+| DLIREC    | 73.78% | -      |
+| NLANGP    | -      | 72.34% |
+| AUEB      | -      | 70.44% |
+| WDEmb     | 75.16% | -      |
+| LSTM      | 75.25% | 71.26% |
+| RNCRF     | 77.26% | 69.74% |
+| **MIN**       | **77.58%** | **73.44%** |
+
+
 ## Contribution
 
 - Propose MIN, a multi-task learning framework to detect aspect term from the online user reviews.
