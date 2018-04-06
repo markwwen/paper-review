@@ -14,6 +14,8 @@
 
 ## Model
 
+![min](min.png)
+
 - Multi-tasking
 - Memory interaction network (MIN)
     - Two LSTMs with extended memory are designed for handling the extraction tasks of aspects and opinions.
@@ -22,6 +24,8 @@
 ## Evaluation
 
 ## Contribution
+
+- Propose MIN, a multi-task learning framework to detect aspect term from the online user reviews.
 
 ## Future work
 
