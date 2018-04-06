@@ -2,7 +2,7 @@
 
 如果不写 review，一味地看 paper 感觉就是看小说了。
 
-## sentiment analysis
+## Sentiment analysis
 
 ### 2017
 
