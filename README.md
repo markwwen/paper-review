@@ -16,5 +16,5 @@
     - CUHK
     - XinLi, WaiLam
     - EMNLP, 2017
-    - [Paper]()
-    - [Review]()
+    - [Paper](http://aclweb.org/anthology/D17-1310)
+    - [Review](Deep-Multi-Task-Learning-for-Aspect-Term-Extraction-with-Memory-Interaction.md)
