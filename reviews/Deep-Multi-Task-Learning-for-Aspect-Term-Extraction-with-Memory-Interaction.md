@@ -2,6 +2,8 @@
 
 ## Motivation
 
+- Solve the problem of aspect term extraction from user review sentences
+
 ## Idea
 
 ## Evaluation
@@ -10,4 +12,4 @@
 
 ## Future work
 
-## My thought
+## My analysis
