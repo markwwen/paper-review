@@ -4,4 +4,9 @@
 
 ## sentiment analysis
 
-### 2018
+### 2017
+
+- Multi-task Memory Networks for Category-speciﬁc Aspect and Opinion Terms Co-extraction [[Paper]()][[Review](www.baidu.com)]
+    - Wenya Wang†‡ Sinno Jialin Pan† Daniel Dahlmeier, axiv, 2017
+- Deep Multi-Task Learning for Aspect Term Extraction with Memory Interaction∗
+    - 
