@@ -57,4 +57,5 @@ DataSet:
 
 ## My thought
 
-- 
+- I don't understand the concept of "memory interaction", maybe it is because I am not familir with the memory network model, but I still think it is not so solid that use the concept of memory network to explain the model.
+- I don't understand why the multi-task learning is not the spotlight in this model
