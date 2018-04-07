@@ -2,7 +2,7 @@
 
 ## Motivation
 
-- Solve the problem of aspect term extraction (ATE) from user review sentences, which is a supporting task for Aspect-Based Sentiment Analysis （ABSA)
+- Solve the problem of aspect term extraction (ATE) from user review sentences, which is a supporting task for Aspect-Based Sentiment Analysis (ABSA)
 - Opinion words can provide indicative clues for findding aspects
 - Non-sentimental sentences cannot have aspect terms and knowing this kind of features will help us to find aspect more accurately
 
