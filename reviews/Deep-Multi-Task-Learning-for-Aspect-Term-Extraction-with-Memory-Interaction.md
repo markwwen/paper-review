@@ -21,6 +21,7 @@
     - Two LSTMs with extended memory are designed for handling the extraction tasks of aspects and opinions.
     - A third LSTM for sentimental sentence classification facilitating more accurate aspect term extraction.
 
+
 ## Evaluation
 
 DataSet:
