@@ -16,7 +16,7 @@
 
 ## Contribution
 
-- Provide a model that can achieve both extraction and categorization simultaneously
+- Provide a model that can achieve both extraction and categorization for terms simultaneously.
 
 ## Future work
 
