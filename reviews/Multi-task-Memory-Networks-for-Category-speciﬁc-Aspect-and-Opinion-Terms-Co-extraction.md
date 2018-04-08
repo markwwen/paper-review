@@ -8,13 +8,15 @@
 ## Idea
 
 - aspect/opinion terms extraction for a specific category is considered as a task, and all the tahsks are learned jointly by exploring commonalities and relationships among them.
-- 
+- consider terms extraction for each specific category as an individual task, and design a memory network to co-extract aspect terms and opinion terms within each task via dual label propagation.
 
 ## Model
 
 ## Evaluation
 
 ## Contribution
+
+- Provide a model that can achieve both extraction and categorization simultaneously
 
 ## Future work
 
