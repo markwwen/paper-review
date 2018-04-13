@@ -29,3 +29,5 @@
 ## Future work
 
 ## My thought
+
+- It is hard to understand dual propagation
