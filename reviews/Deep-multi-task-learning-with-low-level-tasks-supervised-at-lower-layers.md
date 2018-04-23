@@ -6,8 +6,6 @@
 
 ## Idea
 
-
-
 ## Model
 
 ## Evaluation
