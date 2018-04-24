@@ -22,6 +22,18 @@
 
 ## Evaluation
 
+DataSet:
+- S1 (SemEval 2015) contains reviews from the restaurant domain.
+- S2 (SemEval 2016) contains reviews from the restaurant domain.
+- S3 (SemEval 2014) contains reviews from the laptop domain.
+
+| ModelName | S1-ASC | S1-OPC | S1-AS | S1-OP | S2-ASC | S2-OPC | S2-AS | S2-OP | S3-ASC | S3-OPC | S3-AS | S3- OP |
+| --------- | ------ | ------ | ----- | ----- | ------ | ------ | ----- | ----- | ------ | ------ | ----- | ------ |
+| NLANG     | 42.90  | -      | 67.11 | -     | 52.61  | -      | 72.34 | -     | -      | -      | -     | -      |
+
+
+
+
 ## Contribution
 
 - Provide a model that can achieve both extraction and categorization for terms simultaneously.
