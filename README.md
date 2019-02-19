@@ -10,6 +10,18 @@
   - CCS, 2018, <span class="badge badge-success">keynote</span>
   - [Paper](https://arxiv.org/abs/1811.01134)
   - [Review](./reviews/Security-Privacy-ML/A-Marauder's-Map-of-Security-and-Privacy-in-Machine-Learning.md)
+- Towards the Science of Security and Privacy in Machine Learning
+  - Pennsylvania State University, University of Michigan
+  - Nicolas Papernot, Patrick McDaniel, Arunesh Sinha, and Michael Wellman
+  - EuroS&P, 2018, <span class="badge badge-primary">conference</span>
+  - [Paper](https://arxiv.org/abs/1611.03814)
+  - [Review](./reviews/Security-Privacy-ML/Towards-the-Science-of-Security-and-Privacy-in-Machine-Learning.md)
+- Wild Patterns: Ten Years After the Rise of Adversarial Machine Learning
+  - University of Cagliari, Pluribus One
+  - Battista Biggioa, Fabio Roli
+  - Pattern Recognition, 2018, <span class="badge badge-success">journal</span>
+  - [Paper](https://arxiv.org/abs/1712.03141)
+  - [Review](./reviews/Security-Privacy-ML/Towards-the-Science-of-Security-and-Privacy-in-Machine-Learning.md)
 
 ## Sentiment analysis
 
