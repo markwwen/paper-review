@@ -14,7 +14,7 @@
 
 ## Model
 
-![min](min.png)
+![min](img/min.png)
 
 - Multi-tasking
 - Memory interaction network (MIN)
