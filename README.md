@@ -19,7 +19,7 @@
 - Wild Patterns: Ten Years After the Rise of Adversarial Machine Learning
   - University of Cagliari, Pluribus One
   - Battista Biggioa, Fabio Roli
-  - Pattern Recognition, 2018, <span class="badge badge-success">journal</span>
+  - Pattern Recognition, 2018, <span class="badge badge-info">journal</span>
   - [Paper](https://arxiv.org/abs/1712.03141)
   - [Review](./reviews/Security-Privacy-ML/Ten-Years-After-the-Rise-of-Adversarial-Machine-Learning.md)
 
