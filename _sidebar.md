@@ -1,4 +1,4 @@
-- Security and Privacy in Machine Learning
+- Security & Privacy in Machine Learning
   - 2018
       - [A Marauder’s Map of Security and Privacy in Machine Learning](./reviews/Security-Privacy-ML/A-Marauder's-Map-of-Security-and-Privacy-in-Machine-Learning.md)
       - [Towards the Science of Security and Privacy in Machine Learning](./reviews/Security-Privacy-ML/Towards-the-Science-of-Security-and-Privacy-in-Machine-Learning.md)
