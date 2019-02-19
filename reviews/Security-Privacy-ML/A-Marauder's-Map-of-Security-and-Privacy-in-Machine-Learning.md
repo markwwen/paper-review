@@ -2,4 +2,4 @@
 
 ## Motivation
 
-The author write this keynote to 
+The author write this keynote to explore the threat model space of machine learning algorithm.
