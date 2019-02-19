@@ -1,6 +1,8 @@
 - Security and Privacy in Machine Learning
   - 2018
       - [A Marauder’s Map of Security and Privacy in Machine Learning](./reviews/Security-Privacy-ML/A-Marauder's-Map-of-Security-and-Privacy-in-Machine-Learning.md)
+      - [Towards the Science of Security and Privacy in Machine Learning](./reviews/Security-Privacy-ML/Towards-the-Science-of-Security-and-Privacy-in-Machine-Learning.md)
+      - [Wild Patterns: Ten Years After the Rise of Adversarial Machine Learning](./reviews/Security-Privacy-ML/Ten-Years-After-the-Rise-of-Adversarial-Machine-Learning.md)
 - Sentiment analysis
   - 2017
       - [Multi-task Memory Networks for Category-speciﬁc Aspect and Opinion Terms Co-extraction](./reviews/Sentiment-Analysis/Multi-task-Memory-Networks-for-Category-speciﬁc-Aspect-and-Opinion-Terms-Co-extraction.md)
