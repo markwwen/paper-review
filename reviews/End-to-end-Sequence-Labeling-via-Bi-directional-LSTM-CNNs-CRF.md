@@ -2,7 +2,7 @@
 
 ## Motivation
 
-- Solve the problem that the traditionally require large amounts of task-specific knowledge in sequence     labeling systems.
+- Solve the problem that the traditionally require large amounts of task-specific knowledge in sequence labeling systems.
 
 ## Idea
 
