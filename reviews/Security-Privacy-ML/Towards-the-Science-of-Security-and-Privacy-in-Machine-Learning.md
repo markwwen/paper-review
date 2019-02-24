@@ -45,3 +45,13 @@ This section contains four part: An overview of machine learning tasks, Data col
 
 ## Threat Model
 
+In this section, the authors taxonomize the definition and scope of threat models in ML systems and map the space of security models, which contains the machine learning attack surface, the adversarial capabilities and the adversarial goals.
+
+### new words
+
+- subvert
+- corrupt
+- tamper
+- disposal
+- grossly speaking
+- arguably
