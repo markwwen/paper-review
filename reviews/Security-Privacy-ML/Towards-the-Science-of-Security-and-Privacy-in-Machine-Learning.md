@@ -12,7 +12,7 @@ The contributions of this paper are:
 - Inroducing a unifying threat model to allow structured resonning about the security and privacy of systems that incorporate machine learning (part 3).
 - Taxonomizing attacks and defenses identified by the various technical communities s informed elements of PAC learning theory (section 4, 5, 6).
 - Introducing a "no free lunch theorem" for adversarial machine learning (section 7).
-
+<!-- 
 ### new words
 
 - gone unheeded
@@ -30,7 +30,7 @@ The contributions of this paper are:
 - facet
 - depart from
 - texonomize
-- for brevity
+- for brevity -->
 
 ## About Machine Learning
 
