@@ -34,3 +34,14 @@ The contributions of this paper are:
 
 ## About Machine Learning
 
+In this section, the authors provides an overview of how systems apply ML algorithms. Be worth mentioning, most of work on ML security and privacy to date fall with supervised settings, especially in the context of classification tasks.
+This section contains four part: An overview of machine learning tasks, Data collection, Machine learning empirical process, a theoretical model of learning.
+
+<!-- ### new words
+
+- propotion
+- underpining
+- noteworthy point -->
+
+## Threat Model
+
