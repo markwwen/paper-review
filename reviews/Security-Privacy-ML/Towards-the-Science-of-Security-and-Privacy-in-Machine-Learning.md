@@ -9,9 +9,9 @@ In recent years, the machine learning is used in a dizzying array of application
 In introduction part, the authors firstly state the popularity of ML and lead to the issues of privacy and security. Then, the authors claim that their motivation and challenge is the fragmentation of these several area: machine learning, security, and so on. So the authors decide to systematize knowledge about the myriad of security and privacy issues that involve ML. This paper develop a unified perspective on security and privacy in ML.
 
 The contributions of this paper are:
-- Inroducing a unifying threat model to allow structured resonning about the security and privacy of systems that incorporate machine learning (section 3).
-- Taxonomizing attacks and defenses identified by the various technical communities s informed elements of PAC learning theory (section 4, 5, 6).
-- Introducing a "no free lunch theorem" for adversarial machine learning (section 7).
+- inroducing a unifying threat model to allow structured resonning about the security and privacy of systems that incorporate machine learning (section 3).
+- taxonomizing attacks and defenses identified by the various technical communities s informed elements of PAC learning theory (section 4, 5, 6).
+- introducing a "no free lunch theorem" for adversarial machine learning (section 7).
   
 <!-- ### new words
 
@@ -47,6 +47,22 @@ This section contains four part: An overview of machine learning tasks, Data col
 
 In this section, the authors taxonomize the definition and scope of threat models in ML systems and map the space of security models, which contains the machine learning attack surface, the adversarial capabilities and the adversarial goals.
 
+- attack surface
+  - physical domain
+  - digital representaion
+  - machine learning model
+- adversarial capabilities
+  - inference phaase
+    - white box attack
+    - black box attack
+  - training phase
+    - injection
+    - modification
+- adversarial goals
+  - confidentiality and privacy
+  - integrity
+  - availability
+
 <!-- ### new words
 
 - subvert
@@ -55,3 +71,5 @@ In this section, the authors taxonomize the definition and scope of threat model
 - disposal
 - grossly speaking
 - arguably -->
+
+## Training in Adversarial Setting
