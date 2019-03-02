@@ -86,3 +86,13 @@ In targeting integrity part, the authors give a bound of the adversary manipulat
 ### new words
 
 - fall outside the scope of
+
+## 5. Inferring in Adversarial Setting
+
+This section introduce how to attack ML systems at inference time. The adversaries can be divided into White-box adversaries and black-box adversaries. *With respect to privacy, most existing efforts focus on the black-box (oracle) attacks that expose properties of the training data or the model itself.*
+
+### White-box adversaries
+
+### new words
+
+- unrealistic
