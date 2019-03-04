@@ -23,6 +23,10 @@
   - [Paper](https://arxiv.org/abs/1712.03141)
   - [Review](./reviews/Security-Privacy-ML/Ten-Years-After-the-Rise-of-Adversarial-Machine-Learning.md)
 
+### 2013
+
+-  Intriguing properties of neural networks
+
 ## Sentiment analysis
 
 ### 2017
