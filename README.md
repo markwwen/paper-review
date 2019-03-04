@@ -34,7 +34,7 @@
   - Nicolas Papernot, Patrick McDaniel, Xi Wu, Somesh Jha, Ananthram Swami
   - S&P, 2016, <span class="badge badge-primary">conference</span>
 
-### 2013
+### 2014
 
 - Intriguing properties of neural networks
    - Google
