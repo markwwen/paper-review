@@ -26,6 +26,10 @@
 ### 2013
 
 -  Intriguing properties of neural networks
+   - Google
+   - Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, etc.
+   - ICLR, 2014, <span class="badge badge-primary">conference</span>
+   - [Paper](https://arxiv.org/pdf/1312.6199.pdf)
 
 ## Sentiment analysis
 
