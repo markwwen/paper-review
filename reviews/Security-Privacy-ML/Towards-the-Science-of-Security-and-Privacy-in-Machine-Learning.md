@@ -93,6 +93,17 @@ This section introduce how to attack ML systems at inference time. The adversari
 
 ### White-box adversaries
 
+While it is often difficult to obtain the full information of model and its parameters, white-box access is not always unrealistic. For instance, ML models trained on data centers are compressed and deployed to smartphones, in which case reverse engineering may enable adversaries to recover the model's internals and thus obtain white-box access.`
+
+#### Targeting Integrity
+
+In the theoretical PAC model, this can be intepreted as modifying the distribution that generates data during inference.
+
+- direct manipulation of model inputs
+- indirect perturbations resilient to the pre-processing stages of the system's data pipeline
+
 ### new words
 
 - unrealistic
+- resilient
+- 
