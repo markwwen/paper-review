@@ -118,17 +118,31 @@ The most simple attack is performing a membership test to determining whether a 
 
 - direct manipulation of model inputs
   - adversaries with access to class probabilities for label outputs
+    - Automatically evading classifiers by Xu et al.
   - adversary cannot access probabilities
+    - Practical black-box attacks against deep learning systems using adversarial examples
+- Data pipeline manipulation
+  - Adversarial examples in the physical world
 
+#### Targeting Privacy
 
+In black-box settings, adversaries targeting privacy may pursue the goals already discussed in white-box settings, and the one more is extracting model parameters.
+
+- Membership attacks
+  - Membership Inference Attacks against Machine Learning Models by Reza Shokri
+- Training data extraction
+  - An end-to-end case study of personalized warfarin dosing by Fredrikson et al.
+- Model extraction
+  - stealing machine learning models via prediction api by Tramer
+  - it consists in applying equation solving to recover parameters $\theta$ from sets of observed input-output pairs.
 
 - take-away
   - 5.1 Adversarial examples exist in half-spaces of the model's output surface because of the overly linear extrapolation that models, including non-linear ones, make outside of their training data.
   - 5.2 To be resilient to the pipeline's deformations, adversarial examples in physical domains need to introduce adapted, often larger, perturbations.
   - 5.3 Although research has focused on classifcation problems, algorithms developed to craft adversarial examples naturally extend to other settings like reinforcement learning: e.g., the adversary perturbs a video game frame to force an agent to take wrong actions.
+  - 5.4 Black-box attacks make it more difficult for the adversary to choose a target class in which the perturbed input will be classified by the model, when compared to white-box settings.
 
-
-### new words
+<!-- ### new words
 
 - unrealistic
 - resilient
@@ -137,3 +151,4 @@ The most simple attack is performing a membership test to determining whether a 
 - deformation
 - consequences
 - penetrate
+- surrogate -->
