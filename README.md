@@ -38,7 +38,6 @@
 ### 2016
 
 - Distillation as a Defense to Adversarial Perturbations against Deep Neural Networks
-  - Penn State University
   - Nicolas Papernot, Patrick McDaniel, Xi Wu, Somesh Jha, Ananthram Swami
   - S&P, 2016, <span class="badge badge-primary">conference</span>
   - [Paper](https://arxiv.org/abs/1511.04508)
@@ -46,7 +45,6 @@
 ### 2015
 
 - Explaining and Harnessing Adversarial Examples
-  - Google
   - Ian Goodfellow, Jonathon Shlens, Christian Szegedy
   - ICLR, 2015, <span class="badge badge-primary">conference</span>
   - [Paper](https://arxiv.org/abs/1412.6572)
@@ -54,7 +52,6 @@
 ### 2014
 
 - Intriguing properties of neural networks
-   - Google
    - Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, etc.
    - ICLR, 2014, <span class="badge badge-primary">conference</span>
    - [Paper](https://arxiv.org/abs/1312.6199)
@@ -64,13 +61,11 @@
 ### 2017
 
 - Multi-task Memory Networks for Category-speciﬁc Aspect and Opinion Terms Co-extraction
-  - NTU
   - Wenya Wang, Sinno Jialin Pan, Daniel Dahlmeier
   - axiv, 2017, <span class="badge badge-secondary">preprint</span>
   - [Paper](https://arxiv.org/abs/1702.01776)
   - [Review](./reviews/Sentiment-Analysis/Multi-task-Memory-Networks-for-Category-speciﬁc-Aspect-and-Opinion-Terms-Co-extraction.md)
 - Deep Multi-Task Learning for Aspect Term Extraction with Memory Interaction∗
-  - CUHK
   - XinLi, WaiLam
   - EMNLP, 2017, <span class="badge badge-primary">conference</span>
   - [Paper](http://aclweb.org/anthology/D17-1310)
