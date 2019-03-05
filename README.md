@@ -5,7 +5,6 @@
 ### 2018
 
 - A Marauder's Map of Security and Privacy in Machine Learning
-  - Google
   - Nicolas Papernot
   - CCS, 2018, <span class="badge badge-success">keynote</span>
   - [Paper](https://arxiv.org/abs/1811.01134)
@@ -15,13 +14,11 @@
   - IEEE Access, 2018, <span class="badge badge-info">journal</span>
   - [Paper](https://arxiv.org/abs/1801.00553)
 - Wild Patterns: Ten Years After the Rise of Adversarial Machine Learning
-  - University of Cagliari, Pluribus One
   - Battista Biggioa, Fabio Roli
   - Pattern Recognition, 2018, <span class="badge badge-info">journal</span>
   - [Paper](https://arxiv.org/abs/1712.03141)
   - [Review](./reviews/Security-Privacy-ML/Ten-Years-After-the-Rise-of-Adversarial-Machine-Learning.md)
 - Towards the Science of Security and Privacy in Machine Learning
-  - Pennsylvania State University, University of Michigan
   - Nicolas Papernot, Patrick McDaniel, Arunesh Sinha, and Michael Wellman
   - EuroS&P, 2018, <span class="badge badge-primary">conference</span>
   - [Paper](https://arxiv.org/abs/1611.03814)
@@ -30,10 +27,13 @@
 ### 2017
 
 - Adversarial examples in the physical world
-  - Google, OpenAI
   - A Kurakin, I Goodfellow, S Bengio
   - ICLR, 2017, <span class="badge badge-primary">conference workshop</span>
   - [Paper](https://arxiv.org/abs/1607.02533)
+- Practical Black-Box Attacks against Machine Learning
+  - Nicolas Papernot, Patrick McDaniel, Ian Goodfellow, Somesh Jha, Z.Berkay Celik, Ananthram Swami
+  - Asia CCS, 2017, <span class="badge badge-primary">conference</span>
+  - [Paper](https://arxiv.org/abs/1602.02697)
 
 ### 2016
 
@@ -41,6 +41,7 @@
   - Penn State University
   - Nicolas Papernot, Patrick McDaniel, Xi Wu, Somesh Jha, Ananthram Swami
   - S&P, 2016, <span class="badge badge-primary">conference</span>
+  - [Paper](https://arxiv.org/abs/1511.04508)
 
 ### 2015
 
