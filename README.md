@@ -34,13 +34,21 @@
   - Nicolas Papernot, Patrick McDaniel, Xi Wu, Somesh Jha, Ananthram Swami
   - S&P, 2016, <span class="badge badge-primary">conference</span>
 
-### 2013
+### 2015
+
+- Explaining and Harnessing Adversarial Examples
+  - Google
+  - Ian Goodfellow, Jonathon Shlens, Christian Szegedy
+  - ICLR, 2015, <span class="badge badge-primary">conference</span>
+  - [Paper](https://arxiv.org/abs/1412.6572)
+
+### 2014
 
 - Intriguing properties of neural networks
    - Google
    - Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, etc.
    - ICLR, 2014, <span class="badge badge-primary">conference</span>
-   - [Paper](https://arxiv.org/pdf/1312.6199.pdf)
+   - [Paper](https://arxiv.org/abs/1312.6199)
 
 ## Sentiment analysis
 
