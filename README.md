@@ -26,6 +26,10 @@
 
 ### 2017
 
+- Membership Inference Attacks against Machine Learning Models
+  - Reza Shokri, Marco Stronati, Congzheng Song, Vitaly Shmatikov
+  - S&P, 2017, <span class="badge badge-primary">conference</span>
+  - [Paper](https://arxiv.org/abs/1610.05820)
 - Adversarial examples in the physical world
   - A Kurakin, I Goodfellow, S Bengio
   - ICLR, 2017, <span class="badge badge-primary">conference workshop</span>
@@ -37,6 +41,14 @@
 
 ### 2016
 
+- Stealing Machine Learning Models via Prediction APIs
+  - Florian Tramèr, Fan Zhang, Ari Juels, Michael K. Reiter, Thomas Ristenpart
+  - USENIX Security, 2016, <span class="badge badge-primary">conference</span>
+  - [Paper](https://arxiv.org/abs/1609.02943)
+- Transferability in Machine Learning: from Phenomena to Black-Box Attacks using Adversarial Samples
+  - Nicolas Papernot, Patrick McDaniel, Ian Goodfellow
+  - arXiv, 2016, <span class="badge badge-secondary">preprint</span>
+  - [Paper](https://arxiv.org/abs/1605.07277)
 - Distillation as a Defense to Adversarial Perturbations against Deep Neural Networks
   - Nicolas Papernot, Patrick McDaniel, Xi Wu, Somesh Jha, Ananthram Swami
   - S&P, 2016, <span class="badge badge-primary">conference</span>
@@ -62,7 +74,7 @@
 
 - Multi-task Memory Networks for Category-speciﬁc Aspect and Opinion Terms Co-extraction
   - Wenya Wang, Sinno Jialin Pan, Daniel Dahlmeier
-  - axiv, 2017, <span class="badge badge-secondary">preprint</span>
+  - arXiv, 2017, <span class="badge badge-secondary">preprint</span>
   - [Paper](https://arxiv.org/abs/1702.01776)
   - [Review](./reviews/Sentiment-Analysis/Multi-task-Memory-Networks-for-Category-speciﬁc-Aspect-and-Opinion-Terms-Co-extraction.md)
 - Deep Multi-Task Learning for Aspect Term Extraction with Memory Interaction∗
