@@ -100,10 +100,40 @@ While it is often difficult to obtain the full information of model and its para
 In the theoretical PAC model, this can be intepreted as modifying the distribution that generates data during inference.
 
 - direct manipulation of model inputs
+  - formalize the search for adversarial examples as the following minimization problem: $argmin_rh(x+r) = l$ s.t. $x+r \in D$
+  - Goodfellow et al. introduced the *fast gradient sign method*.
 - indirect perturbations resilient to the pre-processing stages of the system's data pipeline
+  - Kurakin et al.'s adversarial examples in the physical world
+  - ...
+- beyond classification
+  - S. Alfeld, X. Zhu, P. Barford: Data poisoning attacks against autoregressive models
+
+#### Targeting Privacy
+
+The most simple attack is performing a membership test to determining whether a particular input was used in the training dataset of a model.
+
+### Black-box adversaries
+
+#### Targeting Integrity
+
+- direct manipulation of model inputs
+  - adversaries with access to class probabilities for label outputs
+  - adversary cannot access probabilities
+
+
+
+- take-away
+  - 5.1 Adversarial examples exist in half-spaces of the model's output surface because of the overly linear extrapolation that models, including non-linear ones, make outside of their training data.
+  - 5.2 To be resilient to the pipeline's deformations, adversarial examples in physical domains need to introduce adapted, often larger, perturbations.
+  - 5.3 Although research has focused on classifcation problems, algorithms developed to craft adversarial examples naturally extend to other settings like reinforcement learning: e.g., the adversary perturbs a video game frame to force an agent to take wrong actions.
+
 
 ### new words
 
 - unrealistic
 - resilient
-- 
+- extrapolation
+- penalties
+- deformation
+- consequences
+- penetrate
