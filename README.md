@@ -9,7 +9,7 @@
   - CCS, 2018, <span class="badge badge-success">keynote</span>
   - [Paper](https://arxiv.org/abs/1811.01134)
   - [Review](./reviews/Security-Privacy-ML/A-Marauder's-Map-of-Security-and-Privacy-in-Machine-Learning.md)
-- Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey
+- *Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey*
   - Naveed Akhtar, Ajmal Mian
   - IEEE Access, 2018, <span class="badge badge-info">journal</span>
   - [Paper](https://arxiv.org/abs/1801.00553)
