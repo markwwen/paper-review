@@ -153,3 +153,12 @@ In black-box settings, adversaries targeting privacy may pursue the goals alread
 - penetrate
 - surrogate -->
 
+## 6. Towards robust, private, and accountable machine learning models
+
+In this section, the authors introduce the efforts at the intersection of security, privacy, and ML that are relevant to the mitigation of these previously discussed attacks.
+
+### Roubustness of models to distribution drifts
+
+Within the PAC framework, a distribution drift violates the assumption that more training data reduces the learning algorithm's error rate.
+
+#### Defending against training-time attacks
