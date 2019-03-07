@@ -5,7 +5,6 @@
 ### 2018
 
 - A Marauder's Map of Security and Privacy in Machine Learning
-  - Google
   - Nicolas Papernot
   - CCS, 2018, <span class="badge badge-success">keynote</span>
   - [Paper](https://arxiv.org/abs/1811.01134)
@@ -15,47 +14,72 @@
   - IEEE Access, 2018, <span class="badge badge-info">journal</span>
   - [Paper](https://arxiv.org/abs/1801.00553)
 - Wild Patterns: Ten Years After the Rise of Adversarial Machine Learning
-  - University of Cagliari, Pluribus One
   - Battista Biggioa, Fabio Roli
   - Pattern Recognition, 2018, <span class="badge badge-info">journal</span>
   - [Paper](https://arxiv.org/abs/1712.03141)
   - [Review](./reviews/Security-Privacy-ML/Ten-Years-After-the-Rise-of-Adversarial-Machine-Learning.md)
 - Towards the Science of Security and Privacy in Machine Learning
-  - Pennsylvania State University, University of Michigan
   - Nicolas Papernot, Patrick McDaniel, Arunesh Sinha, and Michael Wellman
   - EuroS&P, 2018, <span class="badge badge-primary">conference</span>
   - [Paper](https://arxiv.org/abs/1611.03814)
   - [Review](./reviews/Security-Privacy-ML/Towards-the-Science-of-Security-and-Privacy-in-Machine-Learning.md)
 
+### 2017
+
+- Membership Inference Attacks against Machine Learning Models
+  - Reza Shokri, Marco Stronati, Congzheng Song, Vitaly Shmatikov
+  - S&P, 2017, <span class="badge badge-primary">conference</span>
+  - [Paper](https://arxiv.org/abs/1610.05820)
+- Adversarial examples in the physical world
+  - A Kurakin, I Goodfellow, S Bengio
+  - ICLR, 2017, <span class="badge badge-primary">conference workshop</span>
+  - [Paper](https://arxiv.org/abs/1607.02533)
+- Practical Black-Box Attacks against Machine Learning
+  - Nicolas Papernot, Patrick McDaniel, Ian Goodfellow, Somesh Jha, Z.Berkay Celik, Ananthram Swami
+  - Asia CCS, 2017, <span class="badge badge-primary">conference</span>
+  - [Paper](https://arxiv.org/abs/1602.02697)
+
 ### 2016
 
-- *Distillation as a Defense to Adversarial Perturbations against Deep Neural Networks*
-  - Penn State University
+- Stealing Machine Learning Models via Prediction APIs
+  - Florian Tramèr, Fan Zhang, Ari Juels, Michael K. Reiter, Thomas Ristenpart
+  - USENIX Security, 2016, <span class="badge badge-primary">conference</span>
+  - [Paper](https://arxiv.org/abs/1609.02943)
+- Transferability in Machine Learning: from Phenomena to Black-Box Attacks using Adversarial Samples
+  - Nicolas Papernot, Patrick McDaniel, Ian Goodfellow
+  - arXiv, 2016, <span class="badge badge-secondary">preprint</span>
+  - [Paper](https://arxiv.org/abs/1605.07277)
+- Distillation as a Defense to Adversarial Perturbations against Deep Neural Networks
   - Nicolas Papernot, Patrick McDaniel, Xi Wu, Somesh Jha, Ananthram Swami
   - S&P, 2016, <span class="badge badge-primary">conference</span>
+  - [Paper](https://arxiv.org/abs/1511.04508)
+
+### 2015
+
+- Explaining and Harnessing Adversarial Examples
+  - Ian Goodfellow, Jonathon Shlens, Christian Szegedy
+  - ICLR, 2015, <span class="badge badge-primary">conference</span>
+  - [Paper](https://arxiv.org/abs/1412.6572)
 
 ### 2014
 
 - Intriguing properties of neural networks
-   - Google
    - Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, etc.
    - ICLR, 2014, <span class="badge badge-primary">conference</span>
-   - [Paper](https://arxiv.org/pdf/1312.6199.pdf)
+   - [Paper](https://arxiv.org/abs/1312.6199)
 
 ## Sentiment analysis
 
 ### 2017
 
 - Multi-task Memory Networks for Category-speciﬁc Aspect and Opinion Terms Co-extraction
-    - NTU
-    - Wenya Wang, Sinno Jialin Pan, Daniel Dahlmeier
-    - axiv, 2017, <span class="badge badge-secondary">preprint</span>
-    - [Paper](https://arxiv.org/abs/1702.01776)
-    - [Review](./reviews/Sentiment-Analysis/Multi-task-Memory-Networks-for-Category-speciﬁc-Aspect-and-Opinion-Terms-Co-extraction.md)
+  - Wenya Wang, Sinno Jialin Pan, Daniel Dahlmeier
+  - arXiv, 2017, <span class="badge badge-secondary">preprint</span>
+  - [Paper](https://arxiv.org/abs/1702.01776)
+  - [Review](./reviews/Sentiment-Analysis/Multi-task-Memory-Networks-for-Category-speciﬁc-Aspect-and-Opinion-Terms-Co-extraction.md)
 - Deep Multi-Task Learning for Aspect Term Extraction with Memory Interaction∗
-    - CUHK
-    - XinLi, WaiLam
-    - EMNLP, 2017, <span class="badge badge-primary">conference</span>
-    - [Paper](http://aclweb.org/anthology/D17-1310)
-    - [Review](./reviews/Sentiment-Analysis/Deep-Multi-Task-Learning-for-Aspect-Term-Extraction-with-Memory-Interaction.md)
-    - [Talk](https://vimeo.com/238232213)
+  - XinLi, WaiLam
+  - EMNLP, 2017, <span class="badge badge-primary">conference</span>
+  - [Paper](http://aclweb.org/anthology/D17-1310)
+  - [Review](./reviews/Sentiment-Analysis/Deep-Multi-Task-Learning-for-Aspect-Term-Extraction-with-Memory-Interaction.md)
+  - [Talk](https://vimeo.com/238232213)
