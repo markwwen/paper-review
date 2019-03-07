@@ -209,3 +209,12 @@ One way of defining privacy-preserving models is that they do not reveal any add
 
 ## 7. No free lunch in adversarial learning
 
+- take-away
+  - Adversaries can exploit fundamental limitations of simple hypothesis classes in providing accurate predictions in  sub-regions of the feature space. Such attacks can be thwarted by moving to a more complex (richer) hypothesis class, but over-ﬁtting issues must be addressed with the more complex class.
+
+## Conclusions
+
+- explored the attack surface of systems built upon machine learning
+- yields a natural structure for reasoning about their threat models
+- place numerous works in this framework as organized around attacks and defenses
+- showed that there is often a fundamental tension between security or privacy and precision of ML predictions in machine learning systems with finite capacity
