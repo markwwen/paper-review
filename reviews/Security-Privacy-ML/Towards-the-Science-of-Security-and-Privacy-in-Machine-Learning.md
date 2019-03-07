@@ -162,3 +162,50 @@ In this section, the authors introduce the efforts at the intersection of securi
 Within the PAC framework, a distribution drift violates the assumption that more training data reduces the learning algorithm's error rate.
 
 #### Defending against training-time attacks
+
+- PCA-based detection
+- adding a regularization term to the loss function (in SVM)
+
+(No many new research results)
+
+### Defending against inference-time attacks
+
+Defending against attacks at inference remains largely an open problem.
+
+- Defending by gradient masking
+  - 2015, ICLR, Towards deep neural network architectures robust to adversarial examples
+  - 2015, ICDM, A unified gradient regularization family for adversarial examples
+  - 2016, arXiv, Unifying adversarial training algorithms with flexible deep data gradient regularization
+  - 2016, S&P, Distillation as a defense to adversarial perturbations against deep neural networks
+    - to attack this, fast gradient sign mathod and Jacobian attack need larger perturbations
+    - "Defensive distillation is not robust to adversarial examples" find a variant of the attack that works.
+  - label smoothing (2015, arXiv, Rethinking the inception architecture for computer vision)
+    - cannot defend Jocobian-based iterative attack
+- Dfending against larger perturbations
+  - injecting adversarial samples in trainning, 2014, ICLR, C. Szegedy
+
+#### Interpreting robust learning in the PAC model
+
+Inference attacks can be interpreted in the PAC model as the adversary choosing a different data distribution during inference from the one used in training.
+
+### Learning and Inferring with Privacy
+
+One way of defining privacy-preserving models is that they do not reveal any additional information about the subjects involved in their training data.
+
+#### Training
+
+#### Inference
+
+### Fairness and Accountability in Machine Learning
+
+#### Fairness
+
+#### Accountability
+
+- take-away
+  - 6.1 Any defense that tampers with adversarial example crafting heuristics (e.g., by masking gradients used by adversaries)  but does not mitigate the underlying erroneous model predictions can be evaded using a transferability-based black-box attack.
+  - 6.2 In adversarial training, it is essential to include adversarial examples produced by all known attacks, as the defensive training is non-adaptive
+  - 6.3 Learning models with differential privacy guarantees is difficult because the sensitivity of models is unkown for most interesting ML techniques.
+
+## 7. No free lunch in adversarial learning
+
