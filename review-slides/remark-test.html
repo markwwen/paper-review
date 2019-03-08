@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Title</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <style type="text/css">
-      /* Slideshow styles */
-    </style>
-  </head>
-  <body>
-    <textarea id="source">
+
+<head>
+  <title>Title</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <style type="text/css">
+    /* Slideshow styles */
+  </style>
+</head>
+
+<body>
+  <textarea id="source">
 
 class: center, middle
 
@@ -71,21 +73,39 @@ This section contains four part: An overview of machine learning tasks, Data col
 
 In this section, the authors taxonomize the definition and scope of threat models in ML systems and map the space of security models, which contains the machine learning attack surface, the adversarial capabilities and the adversarial goals.
 
-- attack surface
-  - physical domain
-  - digital representaion
-  - machine learning model
-- adversarial capabilities
-  - inference phaase
-    - white box attack
-    - black box attack
-  - training phase
-    - injection
-    - modification
-- adversarial goals
-  - confidentiality and privacy
-  - integrity
-  - availability
+<div>
+
+
+<div><ul>
+    <li>attack surface<ul>
+    <li>physical domain</li>
+    <li>digital representaion</li>
+    <li>machine learning model</li>
+    </ul>
+    </li>
+    <li>adversarial capabilities<ul>
+    <li>inference phaase</li>
+    <li>white box attack</li>
+    <li>black box attack</li>
+    <li>training phase</li>
+    <li>injection</li>
+    <li>modification</li>
+    </ul>
+    </li>
+    <li>adversarial goals<ul>
+    <li>confidentiality and privacy</li>
+    <li>integrity</li>
+    <li>availability</li>
+    </ul>
+    </li>
+    </ul></div>
+
+
+<img src="./attack-surface.png" style="float:right; margin: 5px;" height="100px">
+</div>
+---
+
+
 
 <!-- ### new words
 
@@ -285,24 +305,27 @@ One way of defining privacy-preserving models is that they do not reveal any add
 
 
     </textarea>
-    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
-    <script type="text/javascript">
-      var options = {};
-      var renderMath = function() {
-        renderMathInElement(document.body);
-        // or if you want to use $...$ for math,
-        renderMathInElement(document.body, {delimiters: [ // mind the order of delimiters(!?)
-            {left: "$$", right: "$$", display: true},
-            {left: "$", right: "$", display: false},
-            {left: "\\[", right: "\\]", display: true},
-            {left: "\\(", right: "\\)", display: false},
-        ]});
-      }
-      var slideshow = remark.create(options, renderMath);
+  <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+  <script type="text/javascript">
+    var options = {};
+    var renderMath = function () {
+      renderMathInElement(document.body);
+      // or if you want to use $...$ for math,
+      renderMathInElement(document.body, {
+        delimiters: [ // mind the order of delimiters(!?)
+          { left: "$$", right: "$$", display: true },
+          { left: "$", right: "$", display: false },
+          { left: "\\[", right: "\\]", display: true },
+          { left: "\\(", right: "\\)", display: false },
+        ]
+      });
+    }
+    var slideshow = remark.create(options, renderMath);
 
-    </script>
-  </body>
+  </script>
+</body>
+
 </html>
