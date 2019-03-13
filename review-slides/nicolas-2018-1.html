@@ -2,21 +2,18 @@
 <html>
 
 <head>
-  <title>Title</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <style type="text/css">
-    /* Slideshow styles */
-  </style>
+    <title>Title</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+        /* Slideshow styles */
+    </style>
 </head>
 
 <body>
-  <textarea id="source">
+    <textarea id="source">
+
 
 class: center, middle
-
-$\KaTeX{}$ in remark
-
----
 
 # Towards the Science of Security and Privacy in Machine Learning
 
@@ -73,48 +70,26 @@ This section contains four part: An overview of machine learning tasks, Data col
 
 In this section, the authors taxonomize the definition and scope of threat models in ML systems and map the space of security models, which contains the machine learning attack surface, the adversarial capabilities and the adversarial goals.
 
-<div>
-
-
-<div><ul>
-    <li>attack surface<ul>
-    <li>physical domain</li>
-    <li>digital representaion</li>
-    <li>machine learning model</li>
-    </ul>
-    </li>
-    <li>adversarial capabilities<ul>
-    <li>inference phaase</li>
-    <li>white box attack</li>
-    <li>black box attack</li>
-    <li>training phase</li>
-    <li>injection</li>
-    <li>modification</li>
-    </ul>
-    </li>
-    <li>adversarial goals<ul>
-    <li>confidentiality and privacy</li>
-    <li>integrity</li>
-    <li>availability</li>
-    </ul>
-    </li>
-    </ul></div>
-
-
-<img src="./attack-surface.png" style="float:right; margin: 5px;" height="100px">
-</div>
 ---
 
+- attack surface
+  - physical domain
+  - digital representaion
+  - machine learning model
+- adversarial capabilities
+  - inference phaase
+    - white box attack
+    - black box attack
+  - training phase
+    - injection
+    - modification
+- adversarial goals
+  - confidentiality and privacy
+  - integrity
+  - availability
 
 
-<!-- ### new words
-
-- subvert
-- corrupt
-- tamper
-- disposal
-- grossly speaking
-- arguably -->
+<img src="./attack-surface.png" height="250px">
 
 ---
 
@@ -139,7 +114,7 @@ In targeting integrity part, the authors give a bound of the adversary manipulat
 
 ## 5. Inferring in Adversarial Setting
 
-This section introduce how to attack ML systems at inference time. The adversaries can be divided into White-box adversaries and black-box adversaries. *With respect to privacy, most existing efforts focus on the black-box (oracle) attacks that expose properties of the training data or the model itself.*
+This section introduce how to attack ML systems at inference time. The adversaries can be divided into White-box adversaries and black-box adversaries. **With respect to privacy, most existing efforts focus on the black-box (oracle) attacks that expose properties of the training data or the model itself.**
 
 ---
 
@@ -147,19 +122,22 @@ This section introduce how to attack ML systems at inference time. The adversari
 
 While it is often difficult to obtain the full information of model and its parameters, white-box access is not always unrealistic. For instance, ML models trained on data centers are compressed and deployed to smartphones, in which case reverse engineering may enable adversaries to recover the model's internals and thus obtain white-box access.
 
+- targeting integrity
+- targeting privacy
+
 ---
 
 #### Targeting Integrity
 
 In the theoretical PAC model, this can be intepreted as modifying the distribution that generates data during inference.
 
-- direct manipulation of model inputs
+- **direct manipulation of model inputs**
   - formalize the search for adversarial examples as the following minimization problem: $argmin_rh(x+r) = l$ s.t. $x+r \in D$
   - Goodfellow et al. introduced the *fast gradient sign method*.
-- indirect perturbations resilient to the pre-processing stages of the system's data pipeline
+- **indirect perturbations resilient to the pre-processing stages of the system's data pipeline**
   - Kurakin et al.'s adversarial examples in the physical world
   - ...
-- beyond classification
+- **beyond classification**
   - S. Alfeld, X. Zhu, P. Barford: Data poisoning attacks against autoregressive models
 
 ---
@@ -172,16 +150,19 @@ The most simple attack is performing a membership test to determining whether a 
 
 ### Black-box adversaries
 
+- targeting integrity
+- targeting privacy
+
 ---
 
 #### Targeting Integrity
 
-- direct manipulation of model inputs
+- **direct manipulation of model inputs**
   - adversaries with access to class probabilities for label outputs
     - Automatically evading classifiers by Xu et al.
   - adversary cannot access probabilities
     - Practical black-box attacks against deep learning systems using adversarial examples
-- Data pipeline manipulation
+- **Data pipeline manipulation**
   - Adversarial examples in the physical world
 
 ---
@@ -190,11 +171,11 @@ The most simple attack is performing a membership test to determining whether a 
 
 In black-box settings, adversaries targeting privacy may pursue the goals already discussed in white-box settings, and the one more is extracting model parameters.
 
-- Membership attacks
+- **Membership attacks**
   - Membership Inference Attacks against Machine Learning Models by Reza Shokri
-- Training data extraction
+- **Training data extraction**
   - An end-to-end case study of personalized warfarin dosing by Fredrikson et al.
-- Model extraction
+- **Model extraction**
   - stealing machine learning models via prediction api by Tramer
   - it consists in applying equation solving to recover parameters $\theta$ from sets of observed input-output pairs.
 
@@ -305,27 +286,27 @@ One way of defining privacy-preserving models is that they do not reveal any add
 
 
     </textarea>
-  <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
-  <script type="text/javascript">
-    var options = {};
-    var renderMath = function () {
-      renderMathInElement(document.body);
-      // or if you want to use $...$ for math,
-      renderMathInElement(document.body, {
-        delimiters: [ // mind the order of delimiters(!?)
-          { left: "$$", right: "$$", display: true },
-          { left: "$", right: "$", display: false },
-          { left: "\\[", right: "\\]", display: true },
-          { left: "\\(", right: "\\)", display: false },
-        ]
-      });
-    }
-    var slideshow = remark.create(options, renderMath);
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+    <script type="text/javascript">
+        var options = {};
+        var renderMath = function () {
+            renderMathInElement(document.body);
+            // or if you want to use $...$ for math,
+            renderMathInElement(document.body, {
+                delimiters: [ // mind the order of delimiters(!?)
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\[", right: "\\]", display: true },
+                    { left: "\\(", right: "\\)", display: false },
+                ]
+            });
+        }
+        var slideshow = remark.create(options, renderMath);
 
-  </script>
+    </script>
 </body>
 
 </html>

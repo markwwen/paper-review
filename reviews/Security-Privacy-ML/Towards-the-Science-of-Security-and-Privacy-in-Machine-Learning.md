@@ -110,7 +110,10 @@ In the theoretical PAC model, this can be intepreted as modifying the distributi
 
 #### Targeting Privacy
 
-The most simple attack is performing a membership test to determining whether a particular input was used in the training dataset of a model.
+<!-- TO FIX -->
+<!-- The most simple attack is performing a membership test to determining whether a particular input was used in the training dataset of a model. -->
+
+
 
 ### Black-box adversaries
 
