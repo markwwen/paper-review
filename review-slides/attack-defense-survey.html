@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Title</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+        /* Slideshow styles */
+        /* .remark-container {
+            background-color: black;
+        } */
+        @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+        @import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic);
+        @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+        body {
+            font-family: 'Roboto';
+        }
+
+        .red {color:red;}
+        .yellow {color:yellow;}
+        .green {color:green;}
+        .blue {color: blue}
+
+        .remark-code,
+        .remark-inline-code {
+            font-family: 'Ubuntu Mono';
+        }
+
+        .footnote {
+            position: absolute;
+            bottom: 1em;
+            left: 8em;
+            font-size: 0.33em;
+        }
+    </style>
+</head>
+
+<body>
+    <textarea id="source">
+
+
+class: center, middle
+
+# A Survey of Adversarial Attacks and Defences
+
+---
+
+## 1. Attacks
+
+---
+
+- L-BFGS:
+    - *Intriguing properties of neural networks.* ICLR 2014
+    - Authors: **Christian Szegedy**, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, **Ian Goodfellow**, Rob Fergus.
+    - Content: One of the first methods to find adversarial examples. This method is designed to find the smallest possible attack perturbation.
+    - Object: Minimize $c^\prime|r| + loss_f(x + r, l)$.
+    - Drawback:
+        - Very slow (High computational cost).
+
+---
+
+- Fast gradient sign method (FGSM)
+    - *Explaining and harnessing adversarial examples.* ICLR 2015
+    - Authors: **Ian J. Goodfellow**, Jonathon Shlens, **Christian Szegedy**.
+    - Content: The FGSM has a low computational cost.
+    - Object: $x^{adv} = x + \epsilon sign(\nabla_x J(x, y_t))$.
+    - Drawback:
+        - Low success rate.
+
+---
+
+- DeepFool
+    - *DeepFool: a simple and accurate method to fool deep neural networks* CVPR 2016
+    - Authors: Seyed-Mohsen Moosavi-Dezfooli, Alhussein Fawzi, Pascal Frossard
+    - Content: Optimized for the $L_2$ distance metric.
+
+---
+
+- Jacobian-based Saliency Map Attack (JSMA)
+    - *The Limitations of Deep Learning in Adversarial Settings* EuroS&P 2016
+    - Authors: **Nicolas Papernot**, Patrick McDaniel, Somesh Jha, Matt Fredrikson, Z. Berkay Celik, Ananthram Swami
+    - Content: todo
+
+---
+
+- Basic Iterative Method (BIM) / Iterative FGSM (I-FGSM)
+    - *Adversarial examples in the physical world* ICLR (Workshop) 2017 
+    - Authors: Alexey Kurakin, **Ian J. Goodfellow**, Samy Bengio
+    - $x_0^{adv} = \mathbf{X}, X_2^{adv} = Clip_X, \epsilon \\{ X_1^{adv} + \alpha sign(\nabla_X J(X_1^{adv}, y_t))\\}$
+
+---
+
+- Carlini and Wagner attack (C&W)
+    - *Towards Evaluating the Robustness of Neural Networks* S&P 2017
+    - Authors: **Nicholas Carlini**, David Wagner
+    - Content: Followed a path of L-BFGS. Using Adam to solve the optimization problem.
+
+---
+
+- Adversarial transformation networks (ATN)
+    - *Adversarial Transformation Networks: Learning to Generate Adversarial Examples* arxiv 2017.03
+    - Authors: Shumeet Baluja, Ian Fischer
+    - Content: Train a generative model to craft adversarial examples. Take a clean image as input and generates a corresponding adversarial image.
+
+
+---
+
+- Madry et. al's Attack / projected gradient descent
+    - *Towards Deep Learning Models Resistant to Adversarial Attacks* ICLR 2018
+    - **Aleksander Madry**, Aleksandar Makelov, Ludwig Schmidt, Dimitris Tsipras, Adrian Vladu
+    - Content: Showes that the BIM can be significantly improved by starting from a random point within the $\epsilon$ norm ball.
+
+
+
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+    <script type="text/javascript">
+        var options = {};
+        var renderMath = function () {
+            renderMathInElement(document.body);
+            // or if you want to use $...$ for math,
+            renderMathInElement(document.body, {
+                delimiters: [ // mind the order of delimiters(!?)
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\[", right: "\\]", display: true },
+                    { left: "\\(", right: "\\)", display: false },
+                ]
+            });
+        }
+        var slideshow = remark.create(options, renderMath);
+    </script>
+</body>
+
+</html>
