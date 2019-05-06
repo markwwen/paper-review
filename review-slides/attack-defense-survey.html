@@ -51,65 +51,65 @@ class: center, middle
 ---
 
 - L-BFGS:
-    - *Intriguing properties of neural networks.* ICLR 2014
-    - Authors: **Christian Szegedy**, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, **Ian Goodfellow**, Rob Fergus.
-    - Content: One of the first methods to find adversarial examples. This method is designed to find the smallest possible attack perturbation.
-    - Object: Minimize $c^\prime|r| + loss_f(x + r, l)$.
-    - Drawback:
+    - <span class="blue">*Intriguing properties of neural networks.*</span> ICLR 2014
+    - <span class="red">Authors</span>: **Christian Szegedy**, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, **Ian Goodfellow**, Rob Fergus.
+    - <span class="red">Content</span>: One of the first methods to find adversarial examples. This method is designed to find the smallest possible attack perturbation.
+    - <span class="red">Object</span>: Minimize $c^\prime|r| + loss_f(x + r, l)$.
+    - <span class="red">Drawback</span>:
         - Very slow (High computational cost).
 
 ---
 
 - Fast gradient sign method (FGSM)
-    - *Explaining and harnessing adversarial examples.* ICLR 2015
-    - Authors: **Ian J. Goodfellow**, Jonathon Shlens, **Christian Szegedy**.
-    - Content: The FGSM has a low computational cost.
-    - Object: $x^{adv} = x + \epsilon sign(\nabla_x J(x, y_t))$.
+    - <span class="blue">*Explaining and harnessing adversarial examples.*</span> ICLR 2015
+    - <span class="red">Authors</span>: **Ian J. Goodfellow**, Jonathon Shlens, **Christian Szegedy**.
+    - <span class="red">Content</span>: The FGSM has a low computational cost.
+    - <span class="red">Object</span>: $x^{adv} = x + \epsilon sign(\nabla_x J(x, y_t))$.
     - Drawback:
         - Low success rate.
 
 ---
 
 - DeepFool
-    - *DeepFool: a simple and accurate method to fool deep neural networks* CVPR 2016
-    - Authors: Seyed-Mohsen Moosavi-Dezfooli, Alhussein Fawzi, Pascal Frossard
-    - Content: Optimized for the $L_2$ distance metric.
+    - <span class="blue">*DeepFool: a simple and accurate method to fool deep neural networks*</span> CVPR 2016
+    - <span class="red">Authors</span>: Seyed-Mohsen Moosavi-Dezfooli, Alhussein Fawzi, Pascal Frossard
+    - <span class="red">Content</span>: Optimized for the $L_2$ distance metric.
 
 ---
 
 - Jacobian-based Saliency Map Attack (JSMA)
-    - *The Limitations of Deep Learning in Adversarial Settings* EuroS&P 2016
-    - Authors: **Nicolas Papernot**, Patrick McDaniel, Somesh Jha, Matt Fredrikson, Z. Berkay Celik, Ananthram Swami
-    - Content: todo
+    - <span class="blue">*The Limitations of Deep Learning in Adversarial Settings*</span> EuroS&P 2016
+    - <span class="red">Authors</span>: **Nicolas Papernot**, Patrick McDaniel, Somesh Jha, Matt Fredrikson, Z. Berkay Celik, Ananthram Swami
+    - <span class="red">Content</span>: todo
 
 ---
 
 - Basic Iterative Method (BIM) / Iterative FGSM (I-FGSM)
-    - *Adversarial examples in the physical world* ICLR (Workshop) 2017 
-    - Authors: Alexey Kurakin, **Ian J. Goodfellow**, Samy Bengio
-    - Object: $x_0^{adv} = \mathbf{X}, X_2^{adv} = Clip_X, \epsilon \\{ X_1^{adv} + \alpha sign(\nabla_X J(X_1^{adv}, y_t))\\}$
+    - <span class="blue">*Adversarial examples in the physical world*</span> ICLR (Workshop) 2017 
+    - <span class="red">Authors</span>: Alexey Kurakin, **Ian J. Goodfellow**, Samy Bengio
+    - <span class="red">Object</span>: $x_0^{adv} = \mathbf{X}, X_2^{adv} = Clip_X, \epsilon \\{ X_1^{adv} + \alpha sign(\nabla_X J(X_1^{adv}, y_t))\\}$
 
 ---
 
 - Carlini and Wagner attack (C&W)
-    - *Towards Evaluating the Robustness of Neural Networks* S&P 2017
-    - Authors: **Nicholas Carlini**, David Wagner
-    - Content: Followed a path of L-BFGS. Using Adam to solve the optimization problem.
+    - <span class="blue">*Towards Evaluating the Robustness of Neural Networks*</span> S&P 2017
+    - <span class="red">Authors</span>: **Nicholas Carlini**, David Wagner
+    - <span class="red">Content</span>: Followed a path of L-BFGS. Using Adam to solve the optimization problem.
 
 ---
 
 - Adversarial transformation networks (ATN)
-    - *Adversarial Transformation Networks: Learning to Generate Adversarial Examples* arxiv 2017.03
-    - Authors: Shumeet Baluja, Ian Fischer
-    - Content: Train a generative model to craft adversarial examples. Take a clean image as input and generates a corresponding adversarial image.
+    - <span class="blue">*Adversarial Transformation Networks: Learning to Generate Adversarial Examples*</span> arxiv 2017.03
+    - <span class="red">Authors</span>: Shumeet Baluja, Ian Fischer
+    - <span class="red">Content</span>: Train a generative model to craft adversarial examples. Take a clean image as input and generates a corresponding adversarial image.
 
 
 ---
 
 - Madry et. al's Attack / projected gradient descent
-    - *Towards Deep Learning Models Resistant to Adversarial Attacks* ICLR 2018
-    - Authors: **Aleksander Madry**, Aleksandar Makelov, Ludwig Schmidt, Dimitris Tsipras, Adrian Vladu
-    - Content: Showes that the BIM can be significantly improved by starting from a random point within the $\epsilon$ norm ball.
+    - <span class="blue">*Towards Deep Learning Models Resistant to Adversarial Attacks*</span> ICLR 2018
+    - <span class="red">Authors</span>: **Aleksander Madry**, Aleksandar Makelov, Ludwig Schmidt, Dimitris Tsipras, Adrian Vladu
+    - <span class="red">Content</span>: Showes that the BIM can be significantly improved by starting from a random point within the $\epsilon$ norm ball.
 
 
 
